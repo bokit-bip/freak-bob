@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Key</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="keyGeneratorOverlay" class="overlay">
+        <div class="modal">
+            <h2>Generate Your Access Key</h2>
+            <label for="duration">Choose Duration:</label>
+            <select id="duration">
+                <option value="1">1 Day</option>
+                <option value="7">1 Week</option>
+                <option value="365">1 Year</option>
+                <option value="lifetime">Lifetime</option>
+            </select>
+            <button onclick="generateKey()">Generate Key</button>
+            <p id="generatedKey"></p>
+            <p id="message" style="color: green;"></p>
+        </div>
+    </div>
+
+    <script src="generate-key.js"></script>
+</body>
+</html>

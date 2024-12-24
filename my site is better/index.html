@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Key</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="keyEntryOverlay" class="overlay">
+        <div class="modal">
+            <h2>Enter Your Access Key</h2>
+            <input type="text" id="keyInput" placeholder="Enter your key" />
+            <button onclick="checkKey()">Submit</button>
+            <p id="errorMessage" style="color: red; display: none;">Invalid or expired key, please try again.</p>
+        </div>
+    </div>
+
+    <div id="content" style="display:none;">
+        <h1>Welcome to the Secure Content</h1>
+        <p>!</p>
+    </div>
+
+    <script src="enter-key.js"></script>
+</body>
+</html>
+<body style="background-color:rgb(54, 54, 54);"></body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>64 Clickable Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        /* Grid container to arrange the images */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(8, 100px); /* 8 images per row */
+            grid-gap: 10px; /* Space between the images */
+            justify-content: center;
+        }
+
+        /* Style for each image */
+        .clickable-image {
+            width: 100px;  /* Set image size */
+            height: 100px; /* Set image size */
+            border-radius: 10px;
+            transition: transform 0.3s ease; /* Smooth transition for hover effect */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+
+        .clickable-image:hover {
+            transform: scale(1.05); /* Slightly enlarge the image on hover */
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1></h1>
+    <div class="image-grid">
+        <!-- 64 clickable images (example using placeholders) -->
+        <!-- Each image links to its corresponding subpage (subpage1.html, subpage2.html, etc.) -->
+        <a href="bitlife.html"><img src="https://d.newsweek.com/en/full/1317374/bitlife-ribbons-how-get-all-complete-list-android-ios-cheats-guide-tips-become.jpg?w=1600&h=1600&q=88&f=75befc746fb83a0c568c44ca07bc5e64" alt="Image 1" class="clickable-image"></a>
+        <a href="ovo.html"><img src="https://images.crazygames.com/games/ovo/cover-1605160387375.png?auto=format,compress&q=75&cs=strip" alt="Image 2" class="clickable-image"></a>
+        <a href="bigshotboxing.html"><img src="https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/cd1782b250f70b01d6c054fc6e6ae258683dfc3eb657604d9986495403e4d671.png" alt="Image 3" class="clickable-image"></a>
+        <a href="retobowl.html"><img src="https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/ee9ca3764ef4289a48a1ebf457ef605441ed1f35a0f2eb12707a70d609e53686.png" alt="Image 4" class="clickable-image"></a>
+        <a href="rb college.html"><img src="https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/d98547374c4129bf441b754d495e41aa.png" alt="Image 5" class="clickable-image"></a>
+        <a href="subpage6.html"><img src="https://via.placeholder.com/100" alt="Image 6" class="clickable-image"></a>
+        <a href="subpage7.html"><img src="https://via.placeholder.com/100" alt="Image 7" class="clickable-image"></a>
+        <a href="subpage8.html"><img src="https://via.placeholder.com/100" alt="Image 8" class="clickable-image"></a>
+        <a href="subpage9.html"><img src="https://via.placeholder.com/100" alt="Image 9" class="clickable-image"></a>
+        <a href="subpage10.html"><img src="https://via.placeholder.com/100" alt="Image 10" class="clickable-image"></a>
+
+    </div>
+
+</body>
+</html>
